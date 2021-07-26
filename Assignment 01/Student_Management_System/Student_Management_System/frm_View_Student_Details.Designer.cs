@@ -61,9 +61,9 @@
             // 
             this.btn_Logout.BackColor = System.Drawing.Color.LightCoral;
             this.btn_Logout.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Logout.Location = new System.Drawing.Point(838, 12);
+            this.btn_Logout.Location = new System.Drawing.Point(864, 12);
             this.btn_Logout.Name = "btn_Logout";
-            this.btn_Logout.Size = new System.Drawing.Size(128, 47);
+            this.btn_Logout.Size = new System.Drawing.Size(102, 47);
             this.btn_Logout.TabIndex = 1;
             this.btn_Logout.Text = "Logout";
             this.btn_Logout.UseVisualStyleBackColor = false;
@@ -94,11 +94,11 @@
             this.dOBDataGridViewTextBoxColumn,
             this.departmentDataGridViewTextBoxColumn});
             this.dgv_View_Student_Details.DataSource = this.studentDetailsBindingSource;
-            this.dgv_View_Student_Details.Location = new System.Drawing.Point(40, 122);
+            this.dgv_View_Student_Details.Location = new System.Drawing.Point(1, 122);
             this.dgv_View_Student_Details.Name = "dgv_View_Student_Details";
             this.dgv_View_Student_Details.ReadOnly = true;
             this.dgv_View_Student_Details.RowTemplate.Height = 24;
-            this.dgv_View_Student_Details.Size = new System.Drawing.Size(908, 352);
+            this.dgv_View_Student_Details.Size = new System.Drawing.Size(974, 350);
             this.dgv_View_Student_Details.TabIndex = 3;
             // 
             // iDDataGridViewTextBoxColumn
@@ -153,6 +153,8 @@
             this.Controls.Add(this.lbl_Vuew_Student_Details);
             this.Controls.Add(this.btn_Logout);
             this.Controls.Add(this.btn_Add_New_Student);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frm_View_Student_Details";
             this.Text = "frm_View_Student_Details";
             this.Load += new System.EventHandler(this.frm_View_Student_Details_Load);

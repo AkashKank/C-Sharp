@@ -197,6 +197,8 @@
             this.Controls.Add(this.lbl_Add_New_Student);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frm_Add_New_Student";
             this.Text = "frm_Add_New_Student";
             this.Load += new System.EventHandler(this.frm_Add_New_Student_Load);
